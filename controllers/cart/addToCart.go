@@ -23,6 +23,7 @@ func AddToCart(db *gorm.DB) gin.HandlerFunc {
 		addCart.PricePiece = searchProduct.PricePiece
 		addCart.PriceDozen = searchProduct.PriceDozen
 		addCart.PriceBox = searchProduct.PriceBox
+		addCart.Status = searchProduct.Status
 		addCart.BillingItem = "yes"
 
 		if result.Error == nil {
