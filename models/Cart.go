@@ -10,4 +10,5 @@ type Cart struct {
 	PricePiece  string `json:"price_piece"`
 	PriceDozen  string `json:"price_dozen"`
 	BillingItem string `gorm:"billing_item"`
+	Status      string `json:"status"`
 }

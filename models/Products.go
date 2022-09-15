@@ -8,4 +8,5 @@ type Product struct {
 	PriceBox    string `json:"price_box"`
 	PricePiece  string `json:"price_piece"`
 	PriceDozen  string `json:"price_dozen"`
+	Status      string `json:"status"`
 }
